@@ -70,15 +70,16 @@ const expreience = {
 
   items: [
     {
+      company: "Enterkey Soluction",
+      position: "Full Stack Developer",
+      duration: "03/07/2024 - Current",
+    },
+    {
       company: "Pamz3d design India PVT LTD",
       position: "Junior Programmer",
       duration: "16/06/2023 - 31/05/2024",
     },
-    {
-      company: "Sample Project",
-      position: "Web dovelopment",
-      duration: "15/04/2023 - 01/06/2023",
-    },
+   
     {
       company: "Laptops and mobile servece",
       position: "Freelance web dovelopment",
@@ -100,11 +101,7 @@ const education = {
       degree: "undergraduate",
       duration: "2023 - current",
     },
-    {
-      institution: "yoytube Course",
-      degree: "Programmer Course",
-      duration: "2024",
-    },
+
     {
       institution: "Appin Institue",
       degree: "Certified FullStack Doveloper",
@@ -116,15 +113,11 @@ const education = {
       duration: "2023",
     },
     {
-      institution: "Yoytube Course",
+      institution: "Youtube Course",
       degree: "Html,Css,Javascript Basic Course",
       duration: "2022",
     },
-    {
-      institution: "cnc operator course",
-      degree: "Kathir School of engineering",
-      duration: "2021",
-    },
+    
     {
       institution: "Udaya Polytechnic Collage",
       degree: "Diploma in Mechanical engineering 2 years Complected",
