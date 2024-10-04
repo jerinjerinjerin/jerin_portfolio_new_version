@@ -12,14 +12,14 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between">
             {/* text */}
           <div className="text-center mb-8 xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Web Doveloper</span>
+            <span className="text-xl">Full Stack Developer</span>
             <h1 className="h1 mb-6">
               Hellow I,m <br/>
              <span className="text-blue-700">Jerin Raj</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
             I excal at crafting elegant digital experiences and I am
-              proficient in MERM Stack and Nextjs technologies.
+              proficient in MERN Stack and Nextjs technologies.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
