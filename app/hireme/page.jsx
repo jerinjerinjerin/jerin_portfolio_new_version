@@ -4,6 +4,10 @@ import { motion } from "framer-motion";
 
 const hairMe = [
     {
+        question: "Why should we hire you?",
+        answer: "In addition to my technical expertise, I am a team player who is committed to knowledge sharing and helping others grow. I am highly motivated and continuously seek to improve both my skills and the efficiency of the team. My strong communication and problem-solving abilities, combined with my dedication to advancing in the latest technologies, make me a valuable asset in any development environment."
+    },
+    {
         question: "What technologies do you specialize in as a full-stack developer?",
         answer: "I specialize in a variety of technologies, including front-end frameworks like React and Next.js, back-end environments such as Node.js, and databases like MongoDB and PostgreSQL. My goal is to create seamless, user-friendly applications."
     },
