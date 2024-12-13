@@ -2,7 +2,7 @@
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs, SiMongodb } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiMongodb, SiPostgresql, SiGraphql } from "react-icons/si";
 
 import {
   Tabs,
@@ -171,6 +171,14 @@ const skills = {
       icon: <SiMongodb />,
       name: "mongo.db",
     },
+    {
+      icon: <SiPostgresql />,
+      name: "postgresql",
+    },
+    {
+      icon: <SiGraphql/>,
+      name: "graphql",
+    }
   ],
 };
 

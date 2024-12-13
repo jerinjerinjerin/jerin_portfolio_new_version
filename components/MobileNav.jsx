@@ -27,6 +27,7 @@ const links = [
     name: "contact",
     path: "/contact",
   },
+  
 ];
 
 const MobileNav = () => {
@@ -62,13 +63,13 @@ const MobileNav = () => {
                 link.path === pathname &&
                 "text-blue-700 border-b-2 border-blue-700"
               }
-                            text-xl capitalize hover:text-blue-700 transition-all`}
+              text-xl capitalize hover:text-blue-700 transition-all`}
             >
               {link.name}
             </Link>
           ))}
           <Link href="/hireme">
-            <Button>Hire Me</Button>
+            <Button onClick={handleClose}>Hire Me</Button>
           </Link>
         </nav>
       </SheetContent>

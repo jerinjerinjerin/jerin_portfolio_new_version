@@ -8,29 +8,31 @@ import Stats from "../components/Stats";
 const Home = () => {
   return (
     <section className="h-full w-full">
-       <div className="container mx-auto h-full">
+      <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between">
-            {/* text */}
+          {/* text */}
           <div className="text-center mb-8 xl:text-left order-2 xl:order-none">
             <span className="text-xl">Web Doveloper</span>
             <h1 className="h1 mb-6">
-              Hellow I,m <br/>
-             <span className="text-blue-700">Jerin Raj</span>
+              Hellow I,m <br />
+              <span className="text-blue-700">Jerin Raj</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            I excal at crafting elegant digital experiences and I am
+              I excal at crafting elegant digital experiences and I am
               proficient in MERM Stack and Nextjs technologies.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
-              >
+              <a href="#" download={"/assets/myresume/My_Resume.docx"}>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
                   <span className="">Download CV</span>
-                  <FiDownload className="text-xl"/>
-              </Button>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyle="flex gap-6"
@@ -46,9 +48,9 @@ const Home = () => {
           </div>
         </div>
         <Stats />
-       </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

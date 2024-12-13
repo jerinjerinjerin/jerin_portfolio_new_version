@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 
 const stats = [
   {
-    num: 1,
+    num: 1.5,
     text: "years of experiences",
   },
   {
@@ -35,6 +35,7 @@ const Stats = () => {
                     <CountUp
                         end={item.num}
                         duration={5}
+                        decimals={item.num % 1 !== 0 ? 1 : 0} 
                         delay={2}
                         className="text-4xl xl:text-6xl font-extrabold"
                     />
