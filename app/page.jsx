@@ -18,13 +18,13 @@ const Home = () => {
               <span className="text-blue-700">Jerin Raj</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-<<<<<<< HEAD
+
               I excal at crafting elegant digital experiences and I am
               proficient in MERM Stack and Nextjs technologies.
-=======
+
             I excal at crafting elegant digital experiences and I am
               proficient in MERN Stack and Nextjs technologies.
->>>>>>> a07aced313f0d02f431f5d206b73f974b0365403
+
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -58,8 +58,8 @@ const Home = () => {
   );
 };
 
-<<<<<<< HEAD
+
 export default Home;
-=======
+
 export default Home
->>>>>>> a07aced313f0d02f431f5d206b73f974b0365403
+
